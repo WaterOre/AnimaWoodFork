@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_AnimaWoodNormalWood</defName>
+    <label>produce wood from anima wood</label>
+    <description>Convert anima wood into common wood through controlled application of heat.</description>
+    <jobString>Heat treating anima wood.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>750</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<recipeUsers>
+      <li>Campfire</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AnimaWood</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AnimaWood</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <WoodLog>25</WoodLog>
+    </products>
+  </RecipeDef>
+
+</Defs>

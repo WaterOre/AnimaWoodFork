@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>AnimaWood</defName>
+    <label>anima wood</label>
+    <description>Uncommon wood from anima-infused trees or other fibrous plants. Delicate yet strong, it is highly valued by some artisans for its latent psychic properties. Controlled application of heat can allow it to be suitable for more general uses, but the process makes it indistinguishable from common wood.</description>
+    <graphicData>
+      <texPath>Things/Item/Anima Wood</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <RoyalFavorValue>0.0125</RoyalFavorValue>
+      <MarketValue>4</MarketValue>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.4</Mass> 
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.64</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.80</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>7</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>10</minRewardCount>
+    <stuffProps>
+      <stuffAdjective>anima wooden</stuffAdjective>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <statOffsets>
+        <Beauty>5</Beauty>
+      </statOffsets>
+      <commonality>0.05</commonality>
+      <color>(98,98,72)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <appearance>Planks</appearance>
+      <!--<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>-->
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.85</MaxHitPoints>
+        <Beauty>3</Beauty>
+        <Flammability>0</Flammability>
+        <WorkToMake>1.2</WorkToMake>
+        <WorkToBuild>1.1</WorkToBuild>
+        <DoorOpenSpeed>1.0</DoorOpenSpeed>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <isTechHediff>true</isTechHediff>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleeBlunt</li>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>AnimaBonk</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <allowedArchonexusCount>30</allowedArchonexusCount>
+  </ThingDef>
+</Defs>

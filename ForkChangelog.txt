@@ -1,0 +1,13 @@
+- Added ?xml to beginning of AnimaWood.xml
+- Adjusted capitalization on stuff label to match vanilla format
+- Rewrote item description
+- Reduced royalfavorvalue from 0.25 -> 0.0125
+- Reduced marketvalue from 8 -> 4
+- Reduced mass from 1.2 -> 0.4
+- Increased flammability from 0 -> 0.75
+- Increased deteriorationrate from 0 -> 0.25
+- Increased commonality from 0.01 -> 0.05 (same as uranium)
+
+- Added recipe to convert 50 anima wood into 25 wood, for biomes/scenarios where anima wood is common but wood is not (Tree Connection/Nature Primacy + VIE Anima Theme + Anima Wood and Gaubric Patches, VLE Anima Forest)
+
+- New art

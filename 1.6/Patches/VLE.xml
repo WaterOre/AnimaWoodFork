@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Landmarks Expanded</li>
+        </mods>
+		
+        <match Class="PatchOperationSequence">
+            <!--<success>Always</success>-->
+            <operations>	
+			
+			<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VEE_Plant_YoungAnimaTree"]/plant</xpath>
+			<value>
+				<harvestedThingDef>AnimaWood</harvestedThingDef>
+			</value>			
+			</li>
+
+			<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VEE_Plant_FakeAnimaTree"]/plant</xpath>
+			<value>
+				<harvestedThingDef>AnimaWood</harvestedThingDef>
+			</value>			
+			</li>			
+			
+			<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VEE_Plant_AnimaHusk"]/plant</xpath>
+			<value>
+				<harvestedThingDef>AnimaWood</harvestedThingDef>
+			</value>			
+			</li>	
+
+			<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="VEE_Plant_AnimaRoot"]/plant/harvestedThingDef</xpath>
+			<value>
+				<harvestedThingDef>AnimaWood</harvestedThingDef>
+			</value>			
+			</li>
+			
+	
+
+</operations>
+</match>
+</Operation>
+
+</Patch>

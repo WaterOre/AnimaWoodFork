@@ -50,7 +50,7 @@
         <Flammability>0</Flammability>
         <WorkToMake>1.2</WorkToMake>
         <WorkToBuild>1.1</WorkToBuild>
-        <DoorOpenSpeed>1.0</DoorOpenSpeed>
+        <DoorOpenSpeed>1.2</DoorOpenSpeed>
       </statFactors>
       <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
     </stuffProps>

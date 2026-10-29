@@ -7,7 +7,6 @@
     <graphicData>
       <texPath>Things/Item/Anima Wood</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-	  <scale>1.2</scale>
     </graphicData>
     <equippedAngleOffset>-20</equippedAngleOffset>
     <soundInteract>Wood_Drop</soundInteract>
